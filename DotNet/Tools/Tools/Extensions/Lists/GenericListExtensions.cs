@@ -30,6 +30,16 @@ namespace Tools.Extensions.Lists
                 return value;
 
             return first;
-        }        
+        }
+        
+        public static bool In<T>(this T item, params T[] values)
+        {
+            return values.Contains(item);
+        }
+
+        public static bool In<T>(this T item, IEnumerable<T> values)
+        {
+            return values.Contains(item);
+        }
     }
 }
