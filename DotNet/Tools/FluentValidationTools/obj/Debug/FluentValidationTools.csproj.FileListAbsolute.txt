@@ -1,0 +1,9 @@
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\bin\Debug\FluentValidationTools.dll
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\bin\Debug\FluentValidationTools.pdb
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\bin\Debug\FluentValidation.dll
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\bin\Debug\FluentValidation.xml
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\obj\Debug\FluentValidationTools.csprojAssemblyReference.cache
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\obj\Debug\FluentValidationTools.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\obj\Debug\FluentValidationTools.csproj.CopyComplete
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\obj\Debug\FluentValidationTools.dll
+C:\Users\Timot\OneDrive\Documents\TimsRepo\GitHub\SoftwareDevelopmentKit\DotNet\Tools\FluentValidationTools\obj\Debug\FluentValidationTools.pdb
