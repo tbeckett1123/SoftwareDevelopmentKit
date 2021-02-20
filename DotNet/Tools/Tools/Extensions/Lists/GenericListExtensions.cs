@@ -43,3 +43,6 @@ namespace Tools.Extensions.Lists
         }
     }
 }
+
+/* Copyright 2021 Timothy Beckett
+ * * * * * * * * * * * * * * * * */
