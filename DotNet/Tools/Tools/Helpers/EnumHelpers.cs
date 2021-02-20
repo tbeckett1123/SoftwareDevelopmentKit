@@ -46,3 +46,6 @@ namespace Tools.Helpers
         }
     }
 }
+
+/* Copyright 2021 Timothy Beckett
+ * * * * * * * * * * * * * * * * */
