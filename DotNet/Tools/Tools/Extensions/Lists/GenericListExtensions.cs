@@ -43,12 +43,12 @@ namespace Tools.Extensions.Lists
         }
         
         public static void InsertRange<T>(this List<T> target, int startingIndex, List<T> source)
-	    {
+	{
             for(var i = source.Count() - 1; i > -1; i--)
             {
                 target.Insert(startingIndex, source[i]);
             }
-	    }
+	}
     }
 }
 
