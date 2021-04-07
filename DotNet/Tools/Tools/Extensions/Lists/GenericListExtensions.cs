@@ -41,6 +41,14 @@ namespace Tools.Extensions.Lists
         {
             return values.Contains(item);
         }
+        
+        public static void InsertRange<T>(this List<T> target, int startingIndex, List<T> source)
+	    {
+            for(var i = source.Count() - 1; i > -1; i--)
+            {
+                target.Insert(startingIndex, source[i]);
+            }
+	    }
     }
 }
 
