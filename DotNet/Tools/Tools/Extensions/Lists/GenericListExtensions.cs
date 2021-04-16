@@ -49,6 +49,16 @@ namespace Tools.Extensions.Lists
                 target.Insert(startingIndex, source[i]);
             }
 	}
+	    
+        public static string ToDelimitedString(this IEnumerable<IEnumerable<string>> data, string symbol = ",")
+        {
+            var builder = new StringBuilder();
+
+            foreach (var line in data)
+                builder.AppendLine(string.Join(symbol, line));
+
+            return builder.ToString();
+        }	    
     }
 }
 
