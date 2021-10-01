@@ -15,3 +15,6 @@ namespace Tools.Extensions.Enums
         public static T ToEnum<T>(this int inputValue) where T : struct, IConvertible => EnumHelpers.TryParse(inputValue, out T outputValue) ? outputValue : throw new Exception($"Could not parse value {inputValue} to enum {typeof(T).Name}");
     }
 }
+
+/* Copyright 2021 Timothy Beckett
+ * * * * * * * * * * * * * * * * */

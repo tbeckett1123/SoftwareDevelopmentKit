@@ -63,3 +63,6 @@ namespace Tools.Xml.Serialization
         }
     }
 }
+
+/* Copyright 2021 Timothy Beckett
+ * * * * * * * * * * * * * * * * */

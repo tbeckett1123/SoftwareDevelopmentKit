@@ -32,3 +32,7 @@ namespace FluentValidationTools.CustomValidators
         }
     }
 }
+
+/* Copyright 2021 Timothy Beckett
+ * * * * * * * * * * * * * * * * */
+

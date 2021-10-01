@@ -30,6 +30,37 @@ namespace Tools.Extensions.Lists
                 return value;
 
             return first;
-        }        
+        }
+        
+        public static bool In<T>(this T item, params T[] values)
+        {
+            return values.Contains(item);
+        }
+
+        public static bool In<T>(this T item, IEnumerable<T> values)
+        {
+            return values.Contains(item);
+        }
+        
+        public static void InsertRange<T>(this List<T> target, int startingIndex, List<T> source)
+	{
+            for(var i = source.Count() - 1; i > -1; i--)
+            {
+                target.Insert(startingIndex, source[i]);
+            }
+	}
+	    
+        public static string ToDelimitedString(this IEnumerable<IEnumerable<string>> data, string symbol = ",")
+        {
+            var builder = new StringBuilder();
+
+            foreach (var line in data)
+                builder.AppendLine(string.Join(symbol, line));
+
+            return builder.ToString();
+        }	    
     }
 }
+
+/* Copyright 2021 Timothy Beckett
+ * * * * * * * * * * * * * * * * */
